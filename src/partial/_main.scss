@@ -132,3 +132,98 @@
   }
 } //container large
 } //jumbotron
+
+.navigation-overview {
+  width: 100%;
+  height: 70px;
+  background-color: #e6e6e6;
+  .container_medium{
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content:flex-start;
+
+      li {
+        display: flex;
+        padding: 25px;
+        cursor: pointer;
+        &:hover{
+          background-color: #eeeeee;
+        }
+        &:first-child {
+          padding-bottom: 20px;
+          background-color: #fff;
+          border-bottom: 5px solid #000;
+          cursor: default;
+        }
+      }
+    }
+
+
+  }
+}
+
+.overview {
+    position: relative;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 887px;
+    margin-bottom: 200px;
+    background-size: cover;
+    background-position: center;
+    .container_small{
+    .overview_info {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      justify-content: center;
+      text-align: center;
+      padding-top: 150px;
+      h3 {
+        font-size: 30px;
+        font-weight: 450;
+        margin-bottom: 20px;
+      }
+      p {
+        line-height: 2;
+        font-size: 17px;
+      }
+      a {
+        margin-top: 40px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        margin-bottom: 38px;
+        i {
+          color: #868686;
+          padding: 10px;
+          margin-right: 10px;
+          border-radius: 50%;
+          border: 1px solid #868686;
+
+        }
+      }
+
+      .tablet {
+        position: relative;
+        .overview_img {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          z-index: 9;
+        }
+        .inside_img {
+          position: absolute;
+          width: 100%;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+        }
+      }
+    }
+    }
+
+  }

@@ -62,7 +62,15 @@
     margin-top: 200px;
   }
   .container_large {
-    width: 1400px !important;
+    width: 85% !important;
+    margin: auto;
+  }
+  .container_medium {
+    width: 65% !important;
+    margin: auto;
+  }
+  .container_small {
+    width: 45% !important;
     margin: auto;
   }
   .container_fluid {
