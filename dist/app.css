@@ -86,6 +86,11 @@
   margin: auto;
 }
 
+.debug {
+  background-color: red;
+  border: 1px solid blue;
+}
+
 header {
   background-color: #101010;
 }
