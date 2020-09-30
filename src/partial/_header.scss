@@ -38,9 +38,10 @@ header {
     list-style: none;
     display: flex;
     li {
-      padding: 21px 25px;
+      padding: 14px 25px;
       color: #fff;
       align-self: center;
+      cursor: pointer;
       &:hover {
         background-color: #fff;
         color: #000;

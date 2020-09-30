@@ -86,9 +86,14 @@
   margin: auto;
 }
 
+.container_fluid {
+  width: 100%;
+}
+
 .debug {
   background-color: red;
   border: 1px solid blue;
+  height: 200px;
 }
 
 header {
@@ -140,13 +145,22 @@ header {
 }
 
 .navigation ul li {
-  padding: 21px 25px;
+  padding: 14px 25px;
   color: #fff;
   align-self: center;
+  cursor: pointer;
 }
 
 .navigation ul li:hover {
   background-color: #fff;
   color: #000;
+}
+
+.jumbotron {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-repeat: no-repeat;
+  height: 460px;
+  background-size: auto;
+  background-position: center;
 }
 
