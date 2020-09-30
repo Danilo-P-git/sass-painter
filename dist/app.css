@@ -226,8 +226,7 @@ header {
 }
 
 .jumbotron .container_large .buy {
-  display: flex;
-  width: 400px;
+  width: 30%;
   height: 400px;
   background-color: black;
   margin-left: 100px;
@@ -235,25 +234,67 @@ header {
   color: #fff;
 }
 
-.jumbotron .container_large .price_and_stamp {
+.jumbotron .container_large .buy .price_and_stamp {
   width: 100%;
   display: flex;
 }
 
-.jumbotron .container_large .price_and_stamp .price {
+.jumbotron .container_large .buy .price_and_stamp .price {
   margin-top: 30px;
   padding: 20px;
 }
 
-.jumbotron .container_large .price_and_stamp .price h2 {
+.jumbotron .container_large .buy .price_and_stamp .price h2 {
   margin-bottom: 10px;
 }
 
-.jumbotron .container_large .price_and_stamp img {
+.jumbotron .container_large .buy .price_and_stamp img {
   display: flex;
   width: 120px;
   height: 120px;
   margin-left: auto;
   padding: 10px;
+}
+
+.jumbotron .container_large .buy button {
+  color: #fff;
+  background-color: #009cff;
+  border: none;
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 8px 40px;
+  margin-bottom: 50px;
+}
+
+.jumbotron .container_large .buy button:hover {
+  background-color: #28acff;
+}
+
+.jumbotron .container_large .buy .offert {
+  border-radius: 2px;
+  width: 90%;
+  margin: auto;
+  background-color: #e6e6e6;
+  padding: 10px;
+}
+
+.jumbotron .container_large .buy .offert h3 {
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.jumbotron .container_large .buy .offert p {
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.jumbotron .container_large .buy .offert a {
+  text-decoration: none;
+  color: #32beeb;
+}
+
+.jumbotron .container_large .buy .offert a:hover {
+  text-decoration: underline;
 }
 

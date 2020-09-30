@@ -61,31 +61,74 @@
   }
 
   .buy {
-    display: flex;
-    width: 400px;
+    width: 30%;
     height: 400px;
     background-color: black;
     margin-left: 100px;
     margin-top: 30px;
     color: #fff;
-  }
+
   .price_and_stamp {
     width: 100%;
     display: flex;
+
     .price {
       margin-top: 30px;
       padding: 20px;
-      h2{
-        margin-bottom: 10px;
-      }
+        h2{
+          margin-bottom: 10px;
+        }
     }
+
     img {
       display: flex;
       width: 120px;
       height: 120px;
       margin-left: auto;
       padding: 10px;
+      }
     }
+
+    button {
+      color: #fff;
+      background-color: #009cff;
+      border: none;
+      font-size: 16px;
+      margin-left: 20px;
+      padding: 8px 40px;
+      margin-bottom: 50px;
+      &:hover {
+        background-color: #28acff;
+      }
+    }
+    .offert {
+      border-radius: 2px;
+      width: 90%;
+      margin: auto;
+      background-color: #e6e6e6;
+      padding: 10px;
+      h3 {
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 8px;
+      }
+
+      p {
+        color: #333333;
+        margin-bottom: 8px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #32beeb;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+    }
+
+
   }
-  }
-}
+} //container large
+} //jumbotron
