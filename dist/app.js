@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Danilo\desktop\Boolean\Proggetti 13_07_2020\sass-painter\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Danilo\desktop\Boolean\Proggetti 13_07_2020\sass-painter\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\Users\Danilo\Desktop\Boolean\Proggetti 13_07_2020\sass-painter\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Danilo\Desktop\Boolean\Proggetti 13_07_2020\sass-painter\src\app.scss */"./src/app.scss");
 
 
 /***/ })

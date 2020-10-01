@@ -162,7 +162,57 @@
 
   }
 }
+.info {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  padding-top: 150px;
+  h3 {
+    font-size: 30px;
+    font-weight: 450;
+    margin-bottom: 20px;
+  }
+  p {
+    line-height: 2;
+    font-size: 17px;
+  }
+  a {
+    margin-top: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 38px;
+    i {
+      color: #868686;
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 50%;
+      border: 1px solid #868686;
 
+    }
+  }
+
+  .tablet {
+    position: relative;
+    .tablet_img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      z-index: 9;
+    }
+    .inside_img {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  }
+}
 .overview {
     position: relative;
     background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
@@ -172,58 +222,80 @@
     margin-bottom: 50px;
     background-size: cover;
     background-position: center;
-    .container_small{
-    .overview_info {
-      display: flex;
-      flex-direction: column;
-      color: #fff;
-      justify-content: center;
-      text-align: center;
-      padding-top: 150px;
-      h3 {
-        font-size: 30px;
-        font-weight: 450;
-        margin-bottom: 20px;
-      }
-      p {
-        line-height: 2;
-        font-size: 17px;
-      }
-      a {
-        margin-top: 40px;
-        font-size: 20px;
-        text-decoration: none;
-        color: #fff;
-        margin-bottom: 38px;
-        i {
-          color: #868686;
-          padding: 10px;
-          margin-right: 10px;
-          border-radius: 50%;
-          border: 1px solid #868686;
-
-        }
-      }
-
-      .tablet {
-        position: relative;
-        .overview_img {
-          position: relative;
-          width: 100%;
-          height: 100%;
-          z-index: 9;
-        }
-        .inside_img {
-          position: absolute;
-          width: 100%;
-          top: 0;
-          left: 0;
-          z-index: 1;
-          border-top-left-radius: 15px;
-          border-top-right-radius: 15px;
-        }
-      }
-    }
-    }
-
   }
+.owl {
+  height: 980px;
+  width: 100%;
+  .container_small{
+    .info {
+      color: #000;
+      p {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+.tools {
+  background-color: #222222;
+  width: 100%;
+  .flexible {
+    .container_medium {
+      .info {
+        .tablet {
+          margin-bottom: 50px;
+          .tablet_img {
+            width: 75%;
+          }
+      }
+      }
+    .feature {
+      display: flex;
+      color: #fff;
+      padding-bottom: 100px;
+      .feature-img{
+        width: 58%;
+
+        img {
+          width: 100%;
+        }
+      }
+      .feature-text {
+
+        width: 40%;
+        align-self: center;
+        h4 {
+          font-size: 25px;
+          padding-bottom: 20px;
+        }
+        p {
+          line-height: 1.8;
+        }
+      }
+    }
+    }
+  }
+}
+.first-row {
+  flex-direction: row-reverse;
+  .feature-text {
+  margin-right: 100px;
+  }
+}
+.second-row {
+  flex-direction: row;
+  .feature-text {
+  margin-left: 100px;
+  }
+}
+
+
+.parallax {
+  background-attachment: fixed;
+  height: 600px;
+}
+#parallax-1 {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+}
+#parallax-2 {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
+}

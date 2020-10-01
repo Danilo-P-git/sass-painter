@@ -110,28 +110,28 @@ header {
   background-color: #101010;
 }
 
-.info {
+.contact {
   display: flex;
   justify-content: flex-end;
   font-size: 13px;
 }
 
-.info ul {
+.contact ul {
   list-style: none;
   padding-left: 15px;
   display: flex;
 }
 
-.info ul li {
+.contact ul li {
   margin-left: 20px;
   color: #989898;
 }
 
-.info ul li i {
+.contact ul li i {
   color: #009cff;
 }
 
-.info ul select {
+.contact ul select {
   margin-left: 20px;
 }
 
@@ -337,6 +337,63 @@ header {
   cursor: default;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.info h3 {
+  font-size: 30px;
+  font-weight: 450;
+  margin-bottom: 20px;
+}
+
+.info p {
+  line-height: 2;
+  font-size: 17px;
+}
+
+.info a {
+  margin-top: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 38px;
+}
+
+.info a i {
+  color: #868686;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid #868686;
+}
+
+.info .tablet {
+  position: relative;
+}
+
+.info .tablet .tablet_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+
+.info .tablet .inside_img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
 .overview {
   position: relative;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
@@ -348,61 +405,87 @@ header {
   background-position: center;
 }
 
-.overview .container_small .overview_info {
+.owl {
+  height: 980px;
+  width: 100%;
+}
+
+.owl .container_small .info {
+  color: #000;
+}
+
+.owl .container_small .info p {
+  margin-bottom: 50px;
+}
+
+.tools {
+  background-color: #222222;
+  width: 100%;
+}
+
+.tools .flexible .container_medium .info .tablet {
+  margin-bottom: 50px;
+}
+
+.tools .flexible .container_medium .info .tablet .tablet_img {
+  width: 75%;
+}
+
+.tools .flexible .container_medium .feature {
   display: flex;
-  flex-direction: column;
   color: #fff;
-  justify-content: center;
-  text-align: center;
-  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
-.overview .container_small .overview_info h3 {
-  font-size: 30px;
-  font-weight: 450;
-  margin-bottom: 20px;
+.tools .flexible .container_medium .feature .feature-img {
+  width: 58%;
 }
 
-.overview .container_small .overview_info p {
-  line-height: 2;
-  font-size: 17px;
-}
-
-.overview .container_small .overview_info a {
-  margin-top: 40px;
-  font-size: 20px;
-  text-decoration: none;
-  color: #fff;
-  margin-bottom: 38px;
-}
-
-.overview .container_small .overview_info a i {
-  color: #868686;
-  padding: 10px;
-  margin-right: 10px;
-  border-radius: 50%;
-  border: 1px solid #868686;
-}
-
-.overview .container_small .overview_info .tablet {
-  position: relative;
-}
-
-.overview .container_small .overview_info .tablet .overview_img {
-  position: relative;
+.tools .flexible .container_medium .feature .feature-img img {
   width: 100%;
-  height: 100%;
-  z-index: 9;
 }
 
-.overview .container_small .overview_info .tablet .inside_img {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+.tools .flexible .container_medium .feature .feature-text {
+  width: 40%;
+  align-self: center;
+}
+
+.tools .flexible .container_medium .feature .feature-text h4 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.tools .flexible .container_medium .feature .feature-text p {
+  line-height: 1.8;
+}
+
+.first-row {
+  flex-direction: row-reverse;
+}
+
+.first-row .feature-text {
+  margin-right: 100px;
+}
+
+.second-row {
+  flex-direction: row;
+}
+
+.second-row .feature-text {
+  margin-left: 100px;
+}
+
+.parallax {
+  background-attachment: fixed;
+  height: 600px;
+}
+
+#parallax-1 {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+}
+
+#parallax-2 {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
 }
 
 footer .container_medium {
